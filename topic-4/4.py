@@ -1,0 +1,6 @@
+N = int(input())
+table = list(map(int, input().split()))
+minn = min(table)
+maxx = max(table)
+total = sum(table)
+print(minn, maxx, total)
